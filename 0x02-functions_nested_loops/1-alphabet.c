@@ -1,10 +1,10 @@
-#include "main.h" 
-  
- /** 
-  *   * print_alphabet - print english letters 
-  *    * Return: void 
-  *     */ 
-  
+#include "main.h"
+
+ /**
+  *   * print_alphabet - print english letters
+  *    * Return: void
+  *     */
+
  void print_alphabet(void)
 {
 	        char i

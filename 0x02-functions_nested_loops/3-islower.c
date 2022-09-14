@@ -1,8 +1,8 @@
-#include "main.h" 
- /** 
-  *   * _islower - check whether a given alphabet is lower case or not 
-  *    * @a: int ascii table number 
-  *     * Return: int 1 if is lower otherwise 0 
+#include "main.h"
+ /**
+  *   * _islower - check whether a given alphabet is lower case or not
+  *    * @a: int ascii table number
+  *     * Return: int 1 if is lower otherwise 0
   *      */
 int _islower(int a)
 {
