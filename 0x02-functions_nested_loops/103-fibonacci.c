@@ -1,7 +1,7 @@
 #include <stdio.h> 
  /** 
-  *	main - Prints the add of the even-valued 
-  *	return: Always 0. 
+  * main - Prints the add of the even-valued 
+  * return: Always 0. 
   */ 
  int main(void) 
 { 
@@ -19,6 +19,6 @@
 	afn += n1; 
 	}	 
 	} 
-		printf("%ld\n", afn); 
-		return (0); 
+	printf("%ld\n", afn); 
+	return (0); 
 }
