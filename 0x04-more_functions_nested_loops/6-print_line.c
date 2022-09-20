@@ -1,16 +1,17 @@
-#include "main.h"
-/**
- * print_line - prints straight line *n* times.
- * @n: times straight line is printed.
- * Return: no return.
- */
-void print_line(int n)
-{
-	int i;   
+#include <stdio.h>
+#include "main.h"
 
-	for(i =0; i <n; i++); 
+/**
+ *print_line -  prints a straight line.
+ *@n: parameter
+ *Return: return nothing
+ */
+
+void print_line(int n)
 {
-_putchar('_');
-}
-        _putchar('\n');
+	while (n-- > 0)
+	{
+	_putchar('_');
+	}
+_putchar('\n');
 }
