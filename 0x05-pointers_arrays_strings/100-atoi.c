@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.h"
 
 
 /**
@@ -47,7 +47,7 @@ int find_sign(char *s)
 {
 	int negatives = 0, i = 0, sign = 1;
 
-	while (i < (idx_num_strats(s)))
+	while (i < (idx_num_starts(s)))
 	{
 		if (s[i++] == '-')
 			negatives++;
@@ -68,7 +68,7 @@ int find_sign(char *s)
 int _atoi(char *s)
 {
 
-	intidx_digit_starts = (idx_num_starts(s));
+	int idx_digit_starts = (idx_num_starts(s));
 	int sign;
 	int digits_to_print = 0;
 	int t = 1, i;
@@ -83,7 +83,7 @@ int _atoi(char *s)
 	while ((s[idx_digit_starts] >= '0' && s[idx_digit_starts] <= '9')
 			&& (idx_digit_starts <= _strlen(s))) /* count digits to print */
 	{
-		digits_to_print + = 1;
+		digits_to_print += 1;
 		idx_digit_starts++;
 	}
 
