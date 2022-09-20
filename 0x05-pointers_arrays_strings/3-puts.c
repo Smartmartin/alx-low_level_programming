@@ -1,20 +1,21 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * _puts - prints a string
- * @str: string to print
- *
- * Description: prints a string
- * On success: returns no error
+ * _puts - puts a string follwed by a new line.
+ * @str: input string
+ * Return: no return
  */
 void _puts(char *str)
 {
 	int i = 0;
 
-	while (*(str + i) != '\0')
+	while (count >= 0)
 	{
-		putchar(*(str + i));
-		++i;
+		if (str[count] == '\0')
+		{
+		putchar('\n');
+		break;
+		}
+	_putchar(str[count]);
+	count++;
 	}
-	putchar(10);
 }
